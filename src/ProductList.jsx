@@ -236,7 +236,9 @@ function ProductList({ onHomeClick }) {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        width: '1100px',
+        flex: 1,
+        maxWidth: '1100px',
+        gap: '24px',
     };
 
     const styleA = {
